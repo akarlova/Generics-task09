@@ -1,6 +1,6 @@
 package app.entity;
 
-public class Client<K,V> {
+public class Client<K, V> {
 
     private final K key;
     private final V value;
