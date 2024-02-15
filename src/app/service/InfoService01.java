@@ -20,7 +20,7 @@ public class InfoService01 {
         name = scanner.nextLine();
         System.out.print("Enter client's email: ");
         email = scanner.nextLine();
-        return new Client(name, email);
+        return new Client<>(name, email);
     }
 
     private String formData(Client<String, String> client) {
